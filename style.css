@@ -1,0 +1,51 @@
+@font-face {
+    font-family: '04b';
+    src: url('04B_30__.TTF') format('truetype');
+}
+
+h1 {
+    font-size: 50px;
+    color: #00BFFF;
+    text-align: center;
+    font-family: '04b', Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#weather-info {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.weather-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.weather-item i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.weather-label {
+    font-weight: bold;
+}
+
+.weather-value {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.weather-chart {
+    margin-top: 20px;
+}
