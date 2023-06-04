@@ -12,14 +12,15 @@ h1 {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #000000;
     margin: 0;
     padding: 20px;
     text-align: center;
+    color: #ffffff;
 }
 
 #weather-info {
-    background-color: #ffffff;
+    background-color: #181818;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
